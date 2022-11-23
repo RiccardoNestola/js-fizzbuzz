@@ -30,21 +30,21 @@ for (let index = 1; index <= 100; index++) {
         console.log("fizzbuzz");
         let fizzbuzz = document.getElementById('fizzbuzz');
         fizzbuzz.append('fizzbuzz ');
-        document.getElementById("fizzbuzz").style.color = "magenta";
+        fizzbuzz.style.color = "magenta";
     } 
     
     else if (index % 3 === 0) {
         console.log("fizz");
         let fizz = document.getElementById('fizz');
         fizz.append('fizz '); 
-        document.getElementById("fizz").style.color = "red";  
+        fizz.style.color = "red";  
     } 
     
     else if (index % 5 === 0) {
         console.log("buzz");
         let buzz = document.getElementById('buzz');
         buzz.append('buzz ');  
-        document.getElementById("buzz").style.color = "blue"; 
+        buzz.style.color = "blue"; 
     } 
     
     else {
