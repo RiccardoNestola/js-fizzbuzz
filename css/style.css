@@ -1,0 +1,29 @@
+
+body{
+    font-family:'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
+}
+
+
+
+.container {
+    width: 800px;
+    height: 800px;
+    background-color: #85FFBD;
+    background-image: linear-gradient(45deg, #85FFBD 0%, #FFFB7D 100%);
+    margin: 0 auto;
+    color: white;
+    display: flex;
+    flex-direction: column;
+}
+
+h1{
+    text-align: center;
+}
+
+#fizz,
+#fizzbuzz,
+#buzz{
+    font-size: 50px;
+    padding: 2rem;
+
+}
